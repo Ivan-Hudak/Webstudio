@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 215px;
+  }
+
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  header nav ul li {
+    margin-left: 1rem;
+  }
+
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+
+  header .contact {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .filters {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+
+  .filters button {
+    border: none;
+    background-color: #f4f4f4;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .filters button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-bottom: 50px;
+  }
+
+  .gallery .item {
+    flex: 1 1 calc(33.333% - 1rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 404px;
+  }
+
+  .gallery .item img {
+    width: 455px;
+    height: 294px;
+  }
+
+  .gallery .item h3 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.2rem;
+  }
+
+  .gallery .item p {
+    color: #555;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 30px;
+  }
+
+  footer .contact-info {
+    margin-bottom: 1rem;
+    margin-left: 215px;
+  }
+
+  footer .contact-info p {
+    margin: 0.5rem 0;
+  }
